@@ -66,6 +66,7 @@ Este é um modelo básico. Para aplicações reais, pode ser necessário explora
 ### Requisitos
 
 **R:** Versão 4.0 ou superior.
+
 **Bibliotecas:** caTools, e1071, caret
 
 ### Autor
