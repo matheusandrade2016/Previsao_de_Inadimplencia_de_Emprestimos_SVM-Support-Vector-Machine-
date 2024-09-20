@@ -14,27 +14,27 @@ Este projeto tem como objetivo desenvolver um modelo de classificação utilizan
 
 Foram removidos valores inconsistentes, como idades negativas.
 
-***Padronização:** 
+**Padronização:** 
 
 Os dados numéricos foram padronizados para garantir que todas as features tivessem a mesma escala.
 
-***Tratamento de valores faltantes:** 
+**Tratamento de valores faltantes:** 
 
 Valores faltantes na idade foram imputados com a média da idade.
 
 
 #### Modelagem
 
-* **Algoritmo:** 
+**Algoritmo:** 
 
 O SVM foi escolhido devido à sua capacidade de lidar com problemas de classificação não linear e à sua robustez a outliers
 
-* **Ajuste de hiperparâmetros:** 
+**Ajuste de hiperparâmetros:** 
 
 O parâmetro `cost` foi ajustado para encontrar o melhor compromisso entre o ajuste dos dados de treinamento e a generalização do modelo.
 
 
-* **Validação cruzada:** 
+**Validação cruzada:** 
 
 A validação cruzada de 10 folds foi utilizada para avaliar o desempenho do modelo de forma mais robusta.
 
@@ -59,7 +59,7 @@ Os resultados podem não ser generalizáveis para dados reais.
 
 Se a base de dados tiver um desbalanceamento significativo entre as classes (adimplentes e inadimplentes), técnicas como oversampling ou undersampling podem ser necessárias.
 
-* **Simplicidade do modelo:** 
+**Simplicidade do modelo:** 
 
 Este é um modelo básico. Para aplicações reais, pode ser necessário explorar modelos mais complexos e combinar diferentes técnicas.
 
